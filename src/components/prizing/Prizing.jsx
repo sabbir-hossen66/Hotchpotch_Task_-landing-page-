@@ -5,7 +5,7 @@ const Prizing = () => {
   return (
     <div className=" text-white py-12">
       < div className="text-center mb-12" >
-        <h2 className="text-2xl sm:text-4xl font-bold">Make the wise decision for your business</h2>
+        <h2 className="text-2xl sm:text-4xl font-bold">Make the wise decision <br /> for your business</h2>
         <p className="text-gray-400 mt-2">Choose from our affordable 3 packages</p>
       </div >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
