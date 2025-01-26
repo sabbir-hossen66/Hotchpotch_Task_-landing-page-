@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import StyleButton from "../utilitis/StyleButton";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -20,10 +21,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-[#0b1e27] bg-opacity-70 backdrop-blur-md" : "bg-transparent"
-        }`}
-    >
+    <nav className="sticky top-0 z-50  backdrop-blur-md">
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
@@ -68,14 +67,13 @@ const Navbar = () => {
               <a href="contact" className="text-white">Contact</a>
             </div>
           </div> */}
-          <div className="hidden md:block gap-1">
+          <div className="hidden md:flex items-center gap-4">
             <button className="px-4 py-2 border border-white border-opacity-30 rounded-md text-sm font-medium text-white bg-transparent hover:bg-white hover:text-black hover:bg-opacity-10 transition duration-300">
               Sign in
             </button>
-            <button className="ml-4 px-4 py-2 bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-white rounded-md text-sm font-medium hover:bg-opacity-90 transition duration-300">
-              Get Started Free
-            </button>
+            <StyleButton text={'Get Started Free'} />
           </div>
+
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
