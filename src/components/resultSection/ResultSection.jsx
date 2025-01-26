@@ -1,5 +1,6 @@
 import React from 'react';
 import StyleButton from '../../utilitis/StyleButton';
+import Result from '../../utilitis/Result';
 
 const ResultSection = () => {
   return (
@@ -24,11 +25,12 @@ const ResultSection = () => {
             and writing at no cost. Start for free. AI Writer Tool | Generate <br />
             text for ecom, social media, website, sales, blogs, etc.
           </p>
-          {/* Button Section */}
+
           <div className="flex justify-center lg:justify-start">
             <StyleButton text="Start 14 Days Free Trial" />
           </div>
         </div>
+
       </div>
     </div>
   );
