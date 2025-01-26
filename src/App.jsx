@@ -1,3 +1,4 @@
+import Bar from "./components/bar/Bar"
 import Customers from "./components/heroSection/customers/Customers"
 import HeroSection from "./components/heroSection/HeroSection"
 import Prizing from "./components/prizing/Prizing"
@@ -20,6 +21,7 @@ function App() {
       <ResultSection />
       <WriteResult />
       <Prizing />
+      <Bar />
       <Footer />
     </div>
   )
