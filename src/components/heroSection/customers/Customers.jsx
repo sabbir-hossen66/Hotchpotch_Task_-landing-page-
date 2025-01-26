@@ -14,10 +14,10 @@ const logos = [
 const Customers = () => {
 
   return (
-    <div className='bg-gradient-to-b from-[#12031afa] to-[#12141D] text-white'>
-      <p className='text-center'>Trusted by nearly 5000+ paying customers</p>
+    <div className='bg-gradient-to-b from-[#12031afa] to-[#12141D] pb-5 text-white'>
+      <p className='text-center py-10'>Trusted by nearly 5000+ paying customers</p>
       <div className=" mx-auto px-4 sm:px-6 lg:px-8 my-5">
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6  items-center">
           {logos.map((logo, index) => (
             <div
               key={index}
