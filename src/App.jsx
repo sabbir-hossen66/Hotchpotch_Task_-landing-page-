@@ -1,5 +1,6 @@
 import Customers from "./components/heroSection/customers/Customers"
 import HeroSection from "./components/heroSection/HeroSection"
+import Prizing from "./components/prizing/Prizing"
 import ResultSection from "./components/resultSection/ResultSection"
 import WriteResult from "./components/writeResult/WriteResult"
 import Footer from "./Shared/Footer"
@@ -18,6 +19,7 @@ function App() {
       <Customers />
       <ResultSection />
       <WriteResult />
+      <Prizing />
       <Footer />
     </div>
   )
