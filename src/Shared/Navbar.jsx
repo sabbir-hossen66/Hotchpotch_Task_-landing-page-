@@ -27,12 +27,35 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <a to="#" className="text-white text-xl font-semibold">
+            {/* <a to="#" className="text-white text-xl font-semibold">
               CareerLTD
-            </a>
+            </a> */}
+
+            <div className="hidden md:block">
+              <div className="ml-10 flex items-baseline space-x-4">
+
+                <div className="flex items-center space-x-8 justify-center">
+                  <img className="w-full h-10" src="https://i.ibb.co.com/3Mw83bT/logo-removebg-preview.png" alt="" />
+
+                  <>
+                    <a to="#" className="text-white" exact>
+                      Demo
+                    </a>
+                    <a href="#about" className="text-white">About</a>
+                    <a href="#services" className="text-white">
+                      Blog
+                    </a>
+                    <a href="#partners" className="text-white">Pages</a>
+                    <a href="contact" className="text-white">Contact</a>
+                  </>
+                </div>
+
+              </div>
+            </div>
           </div>
           {/* Desktop Menu */}
-          <div className="hidden md:block">
+
+          {/* <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <a to="#" className="text-white" exact>
                 Demo
@@ -44,7 +67,7 @@ const Navbar = () => {
               <a href="#partners" className="text-white">Pages</a>
               <a href="contact" className="text-white">Contact</a>
             </div>
-          </div>
+          </div> */}
           <div className="hidden md:block gap-1">
             <button className="px-4 py-2 border border-white border-opacity-30 rounded-md text-sm font-medium text-white bg-transparent hover:bg-white hover:text-black hover:bg-opacity-10 transition duration-300">
               Sign in
