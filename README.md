@@ -1,4 +1,4 @@
-#Hotchpotch LandingPage
+# Hotchpotch
 
 This is a landing page created with React.js and Tailwind CSS. It is a fully responsive design, showcasing modern web development practices.
 
