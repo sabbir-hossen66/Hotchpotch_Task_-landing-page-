@@ -94,3 +94,14 @@ export const testimonials = [
     hashtags: "#postcrafts",
   },
 ];
+
+export const tools = [
+  { title: "Blog Headlines", description: "Write a better blog title with our AI tool." },
+  { title: "Blog Intros", description: "Generate a paragraph of blog content using Blog Intros tool." },
+  { title: "Blog Outline", description: "Need an attention-grabbing headline for your article?" },
+  { title: "Blog Conclusions", description: "Write a better conclusion with our AI writing tool." },
+  { title: "Content Rewriter", description: "Get AI to rewrite your sentences in a different way." },
+  { title: "Product Description", description: "Need an attention-grabbing headline for your article?" },
+  { title: "PAS Copywriting Formula", description: "Get AI to rewrite your sentence in a different way." },
+  { title: "Company About Us", description: "Write a better blog title with our AI tool." },
+];
